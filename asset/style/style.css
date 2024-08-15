@@ -1,0 +1,91 @@
+html {
+  scroll-padding-top: 60px; 
+
+}
+
+
+ul li a{
+    display: none;
+}
+
+
+.contenedor-general{
+    display: flex;
+    flex-flow: column wrap;
+    min-height: 100vh;
+}
+
+
+.contenedor-central{
+
+    display: flex;
+    padding-top: 3.5rem;
+    flex-grow: 1;
+
+    
+}
+
+
+
+.contenedor-central > .menu-lateral{
+    background-color: rgb(9, 67, 110);
+    color: white;
+
+    flex: 1 0  400px;
+}
+
+.tiene-datos{
+    padding: 2rem;
+     
+}
+
+
+.foto-grande{
+    border-radius: 80px;
+    width: 200px;
+    
+}
+
+.logo-git{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+
+
+footer{
+    background-color: rgb(9, 67, 110);
+    border-top: 4px solid white;
+
+    /* padding: .5em; */
+}
+
+.foto{
+    width: 70%;
+    margin: 3rem auto;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+.datos{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 2rem;
+    margin-top: 2em;
+
+    
+}
+
+
+
+.perfil-profesional{
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+}
